@@ -1,0 +1,8 @@
+# Definir lista
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Filtrar números mayores que 4 y menores que 9, y calcular la suma de sus cubos
+suma_cubos= sum(x**3 for x in numeros if 4 < x < 9)
+
+# Imprimir el resultado
+print(f"Suma de cubos de números mayores que 4 y menores que 9: {suma_cubos}")
